@@ -1,25 +1,26 @@
-🌤️ Weather Forecast App
-A simple web application using OpenWeatherMap API to fetch real-time weather data.
+# 🌤️ Weather Forecast Application
 
-🚀 Features
-Search weather by city name.
-Display current temperature, weather description, clouds, humidity, and pressure.
-Wind information: speed, gusts, and wind direction with compass.
-Responsive design (supports both mobile & desktop).
+Simple web application using **OpenWeatherMap API** to get real-time weather data.
 
-🛠️ Technologies
-HTML5
-CSS3
-JavaScript
-OpenWeatherMap API
-🔑 API Key
+## 🚀 Features
+- Search weather by city name.
+- Display current temperature, weather description, clouds, humidity, pressure.
+- Wind information: speed, gusts and direction with compass.
+- Responsive interface (supports mobile & desktop).
 
-This app uses OpenWeatherMap API.
-You can create a free API key here: https://openweathermap.org/api.
-⚠️ Note: Do not expose your real API key in deployed projects.
+## 🛠️ Technology
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **OpenWeatherMap API**
 
-🌍 Live Demo
-Project link: https://namhuynh-weatherapp.netlify.app
+## 🔑 API Key
+- Application used **OpenWeatherMap API**.  
+- You can generate a free API key at: [https://openweathermap.org/api](https://openweathermap.org/api).  
+- ⚠️Note: Do not publish the real API key in the deployed product.
 
-📩 Contact
+## Live Demo
+link project: https://namhuynh-weatherapp.netlify.app
+
+## Liên hệ
 Email: huynhvnam03@gmail.com
