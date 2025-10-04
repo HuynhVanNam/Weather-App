@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./Assets/style.css">
+</head>
+
+<body>
+    <main>
+        <form>
+            <input type="text" id="name" autocomplete="off">
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </form>
+        <section class="result">
+
+            <figure class="name">
+                <figcaption>Da Nang</figcaption>
+            </figure>
+
+            <figure class="temperature">
+                <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="Weather icon">
+                <figcaption>
+                    <span>31</span>
+                    <sup>o</sup>
+                </figcaption>
+            </figure>
+
+            <p class="description">Có nhiều mây</p>
+            <section class="forecast"></section>
+
+            <ul>
+                <li>
+                    <span>Mây</span>
+                    <i class="fa-solid fa-cloud"></i>
+                    <span id="clouds">88</span>
+                </li>
+                <li>
+                    <span>Độ ẩm</span>
+                    <i class="fa-solid fa-droplet"></i>
+                    <span id="humidity">88</span>
+                </li>
+                <li>
+                    <span>Áp xuất</span>
+                    <i class="fa-solid fa-gauge"></i>
+                    <span id="pressure">1012</span>
+                </li>
+            </ul>
+
+            <figure class="wind-card">
+                <figcaption>Gió</figcaption>
+
+                <div class="wind-info">
+                    <div><span id="wind-speed">3</span> km/h<br>Gió</div>
+                    <hr>
+                    <div><span id="wind-gust">14</span> km/h<br>Gió giật mạnh</div>
+                </div>
+
+                <div class="wind-compass">
+                    <div class="compass">
+                        <div class="arrow" id="wind-arrow"></div>
+                        <span class="north">B</span>
+                        <span class="east">Đ</span>
+                        <span class="south">N</span>
+                        <span class="west">T</span>
+                    </div>
+                </div>
+            </figure>
+
+
+
+        </section>
+    </main>
+
+    <script src="./Assets/main.js"></script>
+</body>
+
+</html>
