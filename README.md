@@ -22,5 +22,5 @@ Simple web application using **OpenWeatherMap API** to get real-time weather dat
 ## Live Demo
 link project: https://namhuynh-weatherapp.netlify.app
 
-## Liên hệ
+## Contact
 Email: huynhvnam03@gmail.com
